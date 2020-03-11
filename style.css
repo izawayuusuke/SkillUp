@@ -9,6 +9,22 @@
   clear: both;
 }
 
+h2 {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  text-align: center;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+  text-align: center;
+}
+
 header {
   height: 70px;
   background-color: #ec715f;
@@ -61,18 +77,6 @@ nav {
   margin: 0 auto;
   background-color: #ECEFF1;
 }
-.P-title {
-  font-size: 32px;
-  color: #000000;
-  padding-top: 90px;
-  text-align: center;
-}
-.P-text {
-  font-size: 16px;
-  color: #000000;
-  padding-top: 30px;
-  text-align: center;
-}
 .boxes {
   padding-top: 30px;
 }
@@ -104,4 +108,25 @@ nav {
 }
 .box:nth-child(6) {
   background-image:url(img/webcamp-mother.png);
+}
+
+.Feature {
+  width: 980px;
+  margin: 0 auto;
+}
+.Strength {
+  width: 320px;
+  height: auto;
+  padding-top: 30px;
+  float: left;
+  text-align: center;
+}
+.Strength:nth-child(2) {
+  margin: 0 10px;
+}
+i {
+  font-size: 60px;
+}
+.S-title {
+  padding: 10px 0;
 }
