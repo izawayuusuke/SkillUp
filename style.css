@@ -21,7 +21,6 @@ h3 {
 p {
   font-size: 16px;
   color: #000000;
-  padding-top: 30px;
   text-align: center;
 }
 
@@ -73,12 +72,19 @@ nav {
 }
 
 .Portfolio {
+  width: 100%;
+  background-color: #ECEFF1;
+}
+.Portfolio .container {
   width: 920px;
   margin: 0 auto;
-  background-color: #ECEFF1;
+}
+.P-text {
+  padding-top: 30px;
 }
 .boxes {
   padding-top: 30px;
+  padding-bottom: 90px;
 }
 .box {
   width: 300px;
@@ -111,8 +117,18 @@ nav {
 }
 
 .Feature {
+  width: 100%;
+  margin: 0 auto;
+}
+.Feature .container {
   width: 980px;
   margin: 0 auto;
+}
+.F-text {
+  padding-top: 30px;
+}
+.Strengths {
+  padding-bottom: 90px;
 }
 .Strength {
   width: 320px;
@@ -129,4 +145,32 @@ i {
 }
 .S-title {
   padding: 10px 0;
+}
+
+.Profile {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ECEFF1;
+}
+.Profile .container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.Pr-box {
+  padding: 30px 0 90px 0;
+}
+.Pr-image {
+  float: left;
+  width: 512px;
+  text-align: center;
+}
+.Pr-text_box {
+  width: 512px;
+  float: left;
+}
+.Pr-title {
+  padding-bottom: 5px;
+}
+.Pr-title2 {
+  padding-top: 20px;
 }
